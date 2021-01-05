@@ -54,7 +54,7 @@ function renderCurrentConditions(data) {
     <h2>Current Conditions</h2>
     <img src="http://openweathermap.org/img/wn/${data.weather[0]['icon']}@2x.png" />
     <div class="current">
-      <div class="temp">${(data.main.temp)}℃</div>
+      <div class="temp">${Math.round(data.main.temp)}℃</div>
       <div class="condition">${data.weather[0]['description']}</div>
     </div>
   `)
@@ -83,8 +83,8 @@ function render5DayForeCast(futureForecast) {
         <img src="http://openweathermap.org/img/wn/${forecast.weather[0]['icon']}@2x.png" />
         <div class="description">${forecast.weather[0]['description']}</div>
         <div class="temp">
-          <span class="high">${(maxTemp)}℃</span>
-          /<span class="low">${(minTemp)}℃</span>
+          <span class="high">${Math.round(maxTemp)}℃</span>
+          /<span class="low">${Math.round(minTemp)}℃</span>
         </div>
       </div>
       `)
