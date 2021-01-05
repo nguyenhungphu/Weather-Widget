@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": -97.1637,
+    "lat": 49.8434
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": -10.47,
+    "feels_like": -14.05,
+    "temp_min": -13,
+    "temp_max": -9.44,
+    "pressure": 1018,
+    "humidity": 85,
+    "sea_level": 1018,
+    "grnd_level": 989
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 0.5,
+    "deg": 220
+  },
+  "clouds": {
+    "all": 91
+  },
+  "dt": 1609863378,
+  "sys": {
+    "type": 1,
+    "id": 738,
+    "country": "CA",
+    "sunrise": 1609856738,
+    "sunset": 1609886545
+  },
+  "timezone": -21600,
+  "id": 5922850,
+  "name": "City Centre",
+  "cod": 200
+}

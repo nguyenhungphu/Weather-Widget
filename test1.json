@@ -1,0 +1,192 @@
+{
+  "message": "accurate",
+  "cod": "200",
+  "count": 5,
+  "list": [
+    {
+      "id": 2641549,
+      "name": "Newtonhill",
+      "coord": {
+        "lat": 57.03,
+        "lon": -2.15
+      },
+      "main": {
+        "temp": 1.72,
+        "feels_like": -2.52,
+        "temp_min": 1.11,
+        "temp_max": 2.22,
+        "pressure": 1030,
+        "humidity": 100
+      },
+      "dt": 1609866378,
+      "wind": {
+        "speed": 3.6,
+        "deg": 310
+      },
+      "sys": {
+        "country": "GB"
+      },
+      "rain": null,
+      "snow": null,
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "id": 2636814,
+      "name": "Stonehaven",
+      "coord": {
+        "lat": 56.96,
+        "lon": -2.21
+      },
+      "main": {
+        "temp": 1.75,
+        "feels_like": -2.48,
+        "temp_min": 1.11,
+        "temp_max": 2.22,
+        "pressure": 1030,
+        "humidity": 100
+      },
+      "dt": 1609866376,
+      "wind": {
+        "speed": 3.6,
+        "deg": 310
+      },
+      "sys": {
+        "country": "GB"
+      },
+      "rain": null,
+      "snow": null,
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "id": 2640030,
+      "name": "Portlethen",
+      "coord": {
+        "lat": 57.05,
+        "lon": -2.13
+      },
+      "main": {
+        "temp": 1.72,
+        "feels_like": -2.52,
+        "temp_min": 1.11,
+        "temp_max": 2.22,
+        "pressure": 1030,
+        "humidity": 100
+      },
+      "dt": 1609866377,
+      "wind": {
+        "speed": 3.6,
+        "deg": 310
+      },
+      "sys": {
+        "country": "GB"
+      },
+      "rain": null,
+      "snow": null,
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "id": 2642932,
+      "name": "Maryculter",
+      "coord": {
+        "lat": 57.08,
+        "lon": -2.24
+      },
+      "main": {
+        "temp": 1.68,
+        "feels_like": -2.57,
+        "temp_min": 1.11,
+        "temp_max": 2.22,
+        "pressure": 1030,
+        "humidity": 100
+      },
+      "dt": 1609866378,
+      "wind": {
+        "speed": 3.6,
+        "deg": 310
+      },
+      "sys": {
+        "country": "GB"
+      },
+      "rain": null,
+      "snow": null,
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "id": 2642459,
+      "name": "Milton of Murtle",
+      "coord": {
+        "lat": 57.1,
+        "lon": -2.22
+      },
+      "main": {
+        "temp": 1.69,
+        "feels_like": -2.55,
+        "temp_min": 1.11,
+        "temp_max": 2.22,
+        "pressure": 1030,
+        "humidity": 100
+      },
+      "dt": 1609866378,
+      "wind": {
+        "speed": 3.6,
+        "deg": 310
+      },
+      "sys": {
+        "country": "GB"
+      },
+      "rain": null,
+      "snow": null,
+      "clouds": {
+        "all": 75
+      },
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    }
+  ]
+}
