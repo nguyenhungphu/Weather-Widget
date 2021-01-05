@@ -1,0 +1,30 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpFile.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify-inline": "^1.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenhungphu/Weather-Widget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenhungphu/Weather-Widget/issues"
+  },
+  "homepage": "https://github.com/nguyenhungphu/Weather-Widget#readme"
+}
