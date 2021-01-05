@@ -12,7 +12,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-minify-inline": "^1.1.0",
     "gulp-postcss": "^9.0.0",
-    "gulp-sourcemaps": "^3.0.0"
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
