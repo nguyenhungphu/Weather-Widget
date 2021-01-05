@@ -30,7 +30,7 @@ function renderCurrentConditions(data) {
   currentConditions.innerHTML = "";
   currentConditions.insertAdjacentHTML('afterbegin', `
     <h2>Current Conditions</h2>
-    <img src="http://openweathermap.org/img/wn/${data.weather[0]['icon']}@2x.png" />
+    <img src="https://openweathermap.org/img/wn/${data.weather[0]['icon']}@2x.png" />
     <div class="current">
       <div class="temp">${Math.round(data.main.temp)}℃</div>
       <div class="condition">${data.weather[0]['description']}</div>
@@ -38,7 +38,7 @@ function renderCurrentConditions(data) {
   `)
 }
 function get5DayWeather(lat, long) {
-  fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=metric&tnt=3&appid=${API}`)
+  fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=metric&tnt=3&appid=${API}`)
     .then(resp => { return resp.json() })
     .then(data => { render5DayForeCast(data) })
     .catch(err => { console.log(err) })
@@ -58,7 +58,7 @@ function render5DayForeCast(futureForecast) {
       future5ForeCast.insertAdjacentHTML('beforeend', `
         <div class="day">
         <h3>${unixTimeToDateConvert(forecast['dt'])}</h3>
-        <img src="http://openweathermap.org/img/wn/${forecast.weather[0]['icon']}@2x.png" />
+        <img src="https://openweathermap.org/img/wn/${forecast.weather[0]['icon']}@2x.png" />
         <div class="description">${forecast.weather[0]['description']}</div>
         <div class="temp">
           <span class="high">${Math.round(maxTemp)}℃</span>
