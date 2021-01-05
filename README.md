@@ -11,4 +11,4 @@ Output should indicate 'Current Conditions' as today and 5days forecast
 Need to use weather icons provieded by API
 *Temp are defaulted Kelvin so it need to be pass a extra parameter to endpoint to request different unit
 
-Access the website through this URL: https://nifty-lamarr-e96335.netlify.app/
+Access the website through this URL: https://nifty-lamarr-e96335.netlify.app/ 
